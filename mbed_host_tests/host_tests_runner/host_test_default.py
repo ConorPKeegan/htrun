@@ -116,7 +116,7 @@ class DefaultTestSelector(DefaultTestSelectorBase):
         """
         result = None
         timeout_duration = 10       # Default test case timeout
-        idle_timeout_duration = 5   # Default connection idle timeout
+        idle_timeout_duration = 10   # Default connection idle timeout
         event_queue = Queue()       # Events from DUT to host
         dut_event_queue = Queue()   # Events from host to DUT {k;v}
 
